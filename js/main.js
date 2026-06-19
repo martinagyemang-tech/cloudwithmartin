@@ -4,7 +4,10 @@
 ========================================================= */
 
 document.addEventListener("DOMContentLoaded", () => {
-  const body = document.body;
+document.body.classList.add("js-ready");
+
+ 
+ const body = document.body;
 
   /* Scroll progress bar */
   const progress = document.createElement("div");
