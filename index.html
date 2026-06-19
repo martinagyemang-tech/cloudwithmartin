@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Martin Atta Kissi Agyemang — Aspiring Cloud Engineer</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet"/>
+</head>
+<body>
+
+  <!-- ── NAVBAR ── -->
+  <nav class="navbar" id="navbar">
+    <a href="#home" class="nav-logo">MAKA<span>.</span></a>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#portfolio">Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ── MOBILE MENU ── -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mobile-link">About</a></li>
+      <li><a href="#skills" class="mobile-link">Skills</a></li>
+      <li><a href="#portfolio" class="mobile-link">Work</a></li>
+      <li><a href="#contact" class="mobile-link">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- ── HERO ── -->
+  <section class="hero" id="home">
+    <div class="hero-bg-text">☁️ Aspiring Cloud Engineer</div>
+    <div class="hero-content">
+      <p class="hero-tag reveal">👋 Available for work</p>
+      <h1 class="hero-title reveal">
+        Hi, I'm <span class="highlight">Martin Atta Kissi Agyemang</span><br/>
+        Cloud Engineering Student
+      </h1>
+      <p class="hero-sub reveal">
+        I am learning AWS, Linux, networking, and cloud infrastructure by building hands-on projects like EC2 web servers, VPCs, RDS databases, and CloudFront deployments.
+      </p>
+      <div class="hero-btns reveal">
+        <a href="#portfolio" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+    </div>
+    <div class="hero-image reveal">
+      <div class="image-frame">
+        <img src="assets/profile.jpg" alt="Your Name" onerror="this.src='https://placehold.co/400x480/1a1a2e/e0e0ff?text=Your+Photo'"/>
+        <div class="frame-dot dot1"></div>
+        <div class="frame-dot dot2"></div>
+        <div class="frame-dot dot3"></div>
+      </div>
+    </div>
+    <div class="scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-label reveal">01 — About Me</div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <h2 class="section-title">A developer who cares about <span class="highlight">the details</span></h2>
+          <p>My journey in tech began with a simple curiosity about how websites work. That curiosity grew into a deep passion for building things that are both functional and beautiful.</p>
+          <p>I enjoy solving problems creatively, collaborating with others, and constantly learning. I'm currently focused on AWS, EC2, and building projects that make a real difference.</p>
+          <a href="assets/cv.pdf" class="btn btn-primary" download>Download CV <i class="fas fa-download"></i></a>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat-card">
+            <span class="stat-num">5+</span>
+            <span class="stat-label">Projects Completed</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">1+</span>
+            <span class="stat-label">Happy Clients</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">1+</span>
+            <span class="stat-label">Years Learning</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">3+</span>
+            <span class="stat-label">Technologies</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SKILLS ── -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-label reveal">02 — Skills</div>
+      <h2 class="section-title reveal">What I work with</h2>
+      <div class="skills-grid reveal">
+        <div class="skill-card">
+          <i class="fab fa-css3-alt skill-icon"></i>
+          <h3>AWS</h3>
+          <p>EC2, S3, VPC, RDS, CloudFront</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="75"></div></div>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-js skill-icon"></i>
+          <h3>Linux</h3>
+          <p>Terminal, permissions, Nginx, troubleshooting</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="65"></div></div>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-react skill-icon"></i>
+          <h3>React</h3>
+          <p>Git & GitHub</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="50"></div></div>
+        </div>
+        <div class="skill-card">
+          <i class="fab fa-python skill-icon"></i>
+          <h3>Networking</h3>
+          <p>VPC, subnets, route tables, security groups</p>
+          <div class="skill-bar"><div class="skill-fill" data-width="70"></div></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── PORTFOLIO ── -->
+  <section class="portfolio section" id="portfolio">
+    <div class="container">
+      <div class="section-label reveal">03 — My Work</div>
+      <h2 class="section-title reveal">Featured Projects</h2>
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <div class="project-card reveal">
+          <div class="project-img">
+            <img src="assets/project1.png" alt="Project 1" onerror="this.src='https://placehold.co/600x380/0f3460/e0e0ff?text=Project+1'"/>
+            <div class="project-overlay">
+              <a href="#" class="btn btn-sm" target="_blank">Live Demo <i class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="btn btn-sm btn-outline" target="_blank">GitHub <i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>AWS S3 </span><span>EC2 </span><span>VPC + RDS</span>
+            </div>
+            <h3>Hosting a Portfoio on AWS with S3 + Cloudfront</h3>
+            <p>A personal portfolio website hosted entirely on AWS, built in under an hour using Amazon S3 for file storage and CloudFront as a global CDN — delivering the site fast from 400+ edge locations worldwide with free HTTPS included.</p>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal">
+          <div class="project-img">
+            <img src="assets/project2.png" alt="Project 2" onerror="this.src='https://placehold.co/600x380/0f3460/e0e0ff?text=Project+2'"/>
+            <div class="project-overlay">
+              <a href="#" class="btn btn-sm" target="_blank">Live Demo <i class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="btn btn-sm btn-outline" target="_blank">GitHub <i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>AWS </span><span>VPC </span><span>RDS</span>
+            </div>
+            <h3>Building a two-tier app with VPC + RDS</h3>
+            <p>A two-tier cloud application built on AWS, featuring a custom VPC with public and private subnets, an EC2 web server running Nginx, and a MySQL database tucked…A two-tier cloud application built on AWS, featuring a custom VPC with public and private subnets, an EC2 web server running Nginx, and a MySQL database tucked away in a private subnet — wired together the way real production systems are architected.</p>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal">
+          <div class="project-img">
+            <img src="assets/project3.png" alt="Project 3" onerror="this.src='https://placehold.co/600x380/0f3460/e0e0ff?text=Project+3'"/>
+            <div class="project-overlay">
+              <a href="#" class="btn btn-sm" target="_blank">Live Demo <i class="fas fa-external-link-alt"></i></a>
+              <a href="#" class="btn btn-sm btn-outline" target="_blank">GitHub <i class="fab fa-github"></i></a>
+            </div>
+          </div>
+          <div class="project-info">
+            <div class="project-tags">
+              <span>AWS </span><span>ALB </span><span>ASG</span>
+            </div>
+            <h3>Building an auto-scaling app with ALB</h3>
+            <p>An auto-scaling web application built on AWS, using an Application Load Balancer to distribute traffic across EC2 instances that automatically scale from 2 to 6 servers when CPU spikes — then quietly scale back down when traffic drops.</p>
+          </div>
+        </div>
+
+      </div>
+      <div class="center reveal" style="margin-top:3rem;">
+        <a href="https://github.com/martinagyemang-tech/cloudwithmartin" class="btn btn-outline" target="_blank">View All on GitHub <i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ── CONTACT ── -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-label reveal">Contact Me </div>
+      <h2 class="section-title reveal">Let's work together</h2>
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <p>Have a project in mind or just want to say hi? My inbox is always open.</p>
+          <ul class="contact-list">
+            <li><i class="fas fa-envelope"></i> <a href="mailto:youremail@gmail.com">martinagyemang21@gmail.com</a></li>
+            <li><i class="fab fa-github"></i> <a href="https://github.com/yourusername" target="_blank">github.com/martinagyemang-tech</a></li>
+            <li><i class="fab fa-linkedin"></i> <a href="https://linkedin.com/in/yourprofile" target="_blank">linkedin.com/in/martin-atta-kissi-agyemang-774507278/</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> Accra, Ghana</li>
+          </ul>
+        </div>
+        <form class="contact-form reveal" id="contactForm" action="https://formspree.io/f/xykaqloy" method="POST">
+          <div class="form-group">
+            <input type="text" name="name" placeholder="Your Name" required />
+          </div>
+          <div class="form-group">
+            <input type="email" name="email" placeholder="Your Email" required />
+          </div>
+          <div class="form-group">
+            <input type="text" name="subject" placeholder="Subject" required />
+          </div>
+          <div class="form-group">
+            <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full">Send Message <i class="fas fa-paper-plane"></i></button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>© 2025 <strong>Martin Atta Kissi Agyemang</strong>. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://twitter.com/yourhandle" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="https://instagram.com/yourhandle" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
