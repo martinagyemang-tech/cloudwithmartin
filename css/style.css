@@ -1140,3 +1140,154 @@ body.js-ready .reveal.visible {
 }
 EOF
 
+/* ===============================
+   EMERGENCY VISUAL FIX
+   Makes the portfolio readable + modern
+================================ */
+
+body {
+  color: #eef4ff !important;
+  font-family: "Space Grotesk", Arial, sans-serif !important;
+}
+
+.navbar,
+.hero,
+.container {
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+.nav-logo,
+.nav-links a,
+.hero-title,
+.hero-sub,
+.section-title,
+.section-label,
+.about-text p,
+.project-info h3,
+.project-info p,
+.skill-card h3,
+.skill-card p,
+.contact-info p,
+.contact-list li,
+.footer p {
+  color: #eef4ff !important;
+}
+
+.nav-logo {
+  color: #ffffff !important;
+  font-weight: 800 !important;
+}
+
+.nav-logo span {
+  color: #38bdf8 !important;
+}
+
+.nav-links a {
+  color: #c3cce0 !important;
+}
+
+.nav-links a:hover {
+  color: #ffffff !important;
+}
+
+.hero {
+  width: min(100% - 4rem, 1180px) !important;
+  margin: 0 auto !important;
+  overflow: visible !important;
+}
+
+.hero-title {
+  font-family: "Sora", Arial, sans-serif !important;
+  color: #ffffff !important;
+  font-size: clamp(2.6rem, 5vw, 4.7rem) !important;
+  line-height: 1.05 !important;
+  letter-spacing: -0.06em !important;
+  max-width: 680px !important;
+}
+
+.hero-title .highlight {
+  background: linear-gradient(135deg, #38bdf8, #7c5cff, #21e6c1) !important;
+  -webkit-background-clip: text !important;
+  background-clip: text !important;
+  color: transparent !important;
+}
+
+.hero-sub {
+  color: #aab6d3 !important;
+  max-width: 600px !important;
+  font-size: 1.05rem !important;
+}
+
+.hero-tag {
+  color: #d8d0ff !important;
+}
+
+.btn-primary {
+  background: linear-gradient(135deg, #7c5cff, #38bdf8) !important;
+  color: #ffffff !important;
+}
+
+.btn-outline {
+  color: #ffffff !important;
+  border-color: rgba(255,255,255,0.18) !important;
+}
+
+/* Fix terminal covering your photo */
+.cloud-terminal {
+  right: -2rem !important;
+  bottom: 1.5rem !important;
+  transform: scale(0.9) !important;
+  color: #dbeafe !important;
+}
+
+.cloud-terminal p {
+  color: #dbeafe !important;
+}
+
+.terminal-success {
+  color: #21e6c1 !important;
+}
+
+/* Improve photo card */
+.image-frame {
+  box-shadow: 0 30px 90px rgba(0,0,0,0.55) !important;
+}
+
+.image-frame::after {
+  color: #ffffff !important;
+}
+
+/* Make sections readable */
+.stat-card,
+.skill-card,
+.project-card,
+.contact-info,
+.contact-form,
+.testimonial-card {
+  color: #eef4ff !important;
+  background: rgba(255,255,255,0.075) !important;
+  border-color: rgba(255,255,255,0.14) !important;
+}
+
+/* Mobile fix */
+@media (max-width: 960px) {
+  .hero {
+    width: min(100% - 1.5rem, 1180px) !important;
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+  .hero-title {
+    font-size: clamp(2.3rem, 12vw, 3.8rem) !important;
+  }
+
+  .cloud-terminal {
+    position: relative !important;
+    right: auto !important;
+    bottom: auto !important;
+    transform: none !important;
+    margin: 2rem auto 0 !important;
+  }
+}
+
